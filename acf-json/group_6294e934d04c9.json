@@ -1,0 +1,156 @@
+{
+    "key": "group_6294e934d04c9",
+    "title": "Teacher Designation",
+    "fields": [
+        {
+            "key": "field_6294e944ddd44",
+            "label": "Teacher Desig",
+            "name": "teacher_desig",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Wordpress",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6294e977ddd45",
+            "label": "Teacher description",
+            "name": "teacher_description",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Tempor incididunt magna aliqua.",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_6294e9b85267f",
+            "label": "Teacher Social",
+            "name": "teacher_social",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 4,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_6294e9c952680",
+                    "label": "Teacher Social Icon",
+                    "name": "teacher_social_icon",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "fa fa-facebook": "Facebook",
+                        "fa fa-youtube-play": "Youtube",
+                        "fa fa-twitter": "Twitter",
+                        "fa fa-google-plus": "Google Plus",
+                        "fa fa-instagram": "instagram",
+                        "fa fa-linkedin": "Linkedin"
+                    },
+                    "default_value": "fa fa-facebook",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_6294ea99cbe35",
+                    "label": "Teacher Social Link",
+                    "name": "teacher_social_link",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_6294f08d84077",
+                    "label": "Teacher Social Color",
+                    "name": "teacher_social_color",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "#0054a6": "Facebook",
+                        "#c4302b": "Youtube",
+                        "#38a1f3": "Twitter",
+                        "#cc3333": "Google Plus"
+                    },
+                    "default_value": "#0054a6",
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "teacher"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1653928227
+}

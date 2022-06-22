@@ -4214,9 +4214,9 @@ textarea:focus {
 }
 
 .testi-content.default-overlay:before {
-  background-color: #00a651;
+ background-color: #00a651;
   opacity: 0.95;
-}
+} 
 
 .testi-big-img img {
   height: 100%;
@@ -5465,6 +5465,9 @@ textarea:focus {
 }
 .footer-menu-social .footer-social ul li a.facebook {
   color: #0054a6;
+}
+.footer-menu-social .footer-social ul li a.pinterest {
+  color: #c4302b;
 }
 .footer-menu-social .footer-social ul li a.facebook:hover {
   background-color: #0054a6;

@@ -10,3 +10,148 @@ Requires PHP: 5.2.4
 Version: 1.7
 
 */
+
+
+
+.wpcf7-form-control.has-spinner.wpcf7-submit.submit.default-btn {
+  width: 183px !important;
+  height: 58px !important;
+}
+
+/* .footer-menu-social .footer-social ul li a.facebook {
+  color: #c4302b;
+} */
+
+
+
+#menu-footer_1 li a {
+  color: #fff;
+  line-height: 29px;
+}
+#menu-footer_1 li a:hover {
+  color: #00a651;
+}
+
+
+.single-recent-post:last-child {
+  margin-bottom: 23px;
+}
+
+.sidebar-recent-course .sin-sidebar-recent-course:last-child {
+  margin-bottom: 18px;
+}
+
+
+.wpcf7-form-control.has-spinner.wpcf7-submit.submit.btn-style {
+  color: #fff;
+  width: 36%;
+  height: 56px;
+  line-height: 1;
+  font-weight: bold;
+  border: none;
+  background-color: #00a651;
+  border-radius: 33px;
+  margin-top: 24px;
+}
+
+
+
+label {
+  display: none;
+}
+#wp-comment-cookies-consent {
+  display: none;
+}
+.comment-notes {
+  display: none;
+}
+
+
+#author {
+  width: 48%;
+}
+#email {
+  width: 48%;
+  float: right;
+  margin-top: -60px;
+}
+
+
+/*
+  This code for Comment box height
+*/
+#comment {
+  height: 192px;
+}
+
+
+/*
+  This code for Comment button background color, font size etc........ 
+*/
+.comment-form-comment button, input[type="button"], input[type="reset"], input[type="submit"], .button, .entry-content .button {
+  background-color: #00a651;
+  border: medium none;
+  box-shadow: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 18px 40px 17px;
+  text-transform: uppercase;
+  width: auto;
+  border-radius: 51px;
+  font-weight: bold;
+  font-size: 19px;
+  height: auto;
+}
+
+
+
+
+/*--------- pagination style ------------*/
+.pro-pagination-style ul li {
+  display: inline-block;
+  margin: 0 4px;
+}
+.pro-pagination-style ul li a {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+  font-size: 16px;
+  border-radius: 100%;
+  color: #00a651;
+  -webkit-box-shadow: 0 0px 12px 0.8px rgba(0, 166, 81, 0.1);
+          box-shadow: 0 0px 12px 0.8px rgba(0, 166, 81, 0.1);
+}
+.pro-pagination-style ul li a:hover {
+  background-color: #00a651;
+  color: #fff;
+}
+.pro-pagination-style ul li a.active {
+  background-color: #00a651;
+  color: #fff;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.pro-pagination-style ul li a.active:hover {
+  background-color: #333;
+}
+.pro-pagination-style ul li a.prev,
+.pro-pagination-style ul li a.next {
+  background-color: #f6f6f6;
+  color: #00a651;
+  font-size: 17px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.pro-pagination-style ul li a.prev:hover,
+.pro-pagination-style ul li a.next:hover {
+  background-color: #00a651;
+  color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+  .pro-pagination-style.mt-25 {
+    margin-top: 0;
+  }
+}

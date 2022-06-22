@@ -1,7 +1,4 @@
 <?php
-/*
-    Template Name: Blog
-*/
  get_header(); 
 ?>
 <?php
@@ -22,6 +19,17 @@
         </div>
     </div>
 </div>
+<header class="page-header alignwide">
+        <h1 class="page-title">
+            <?php
+            printf(
+                /* translators: %s: Search term. */
+                esc_html__( 'Results for "%s"', 'twentytwentyone' ),
+                '<span class="page-description search-term">' . esc_html( get_search_query() ) . '</span>'
+            );
+            ?>
+        </h1>
+    </header><!-- .page-header -->
 <div class="event-area pt-130 pb-130">
     <div class="container">
         <div class="row">
@@ -74,34 +82,7 @@
                           ?>
                     </div>
 
-                    <?php the_posts_pagination( array(
-                        'mid_size'  => 2,
-                        'prev_text' => __( 'Back', 'textdomain' ),
-                        'next_text' => __( 'Onward', 'textdomain' ),
-                    ) ); ?>
-                    <div class="pro-pagination-style text-center mt-25">
 
-                        <ul>
-                            <li><a class="prev" href="#"><i class="fa fa-angle-double-left"></i></a></li>
-                            <li><a class="active" href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a class="next" href="#"><i class="fa fa-angle-double-right"></i></a></li>
-                        </ul>
-   
-                    </div> 
-
-                     <div class="pro-pagination-style text-center mt-25">
-
-                        <ul>
-                             <?php the_posts_pagination( array(
-                            'mid_size'  => 3,
-                            'prev_text' => '<li><a class="prev" href="#"><i class="fa fa-angle-double-left"></i></a></li>', 'textdomain',
-                            'next_text' => '<li><a class="next" href="#"><i class="fa fa-angle-double-right"></i></a></li>', 'textdomain',
-                        ) ); 
-                        ?>
-                        </ul>
-                       
-                    </div>
                 </div>
             </div>
 
